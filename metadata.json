@@ -1,0 +1,6 @@
+{
+  "name": "TTKLight - Đèn Nhà Xưởng LED Highbay Chuyên Nghiệp",
+  "description": "Giải pháp chiếu sáng công nghiệp chuẩn TCVN 7114 & Châu Âu, công cụ tính toán mô phỏng Dialux 3D và báo giá dự án.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
