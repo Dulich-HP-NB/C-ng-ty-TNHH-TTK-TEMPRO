@@ -108,7 +108,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
   }
   document.getElementById('phone').setCustomValidity('');
   const tr = window.foodtourTranslate || (text => text);
-  const submitButton = this.querySelector('button[type="submit"]);
+  const submitButton = this.querySelector('button[type="submit"]');
   const originalLabel = submitButton.textContent;
   submitButton.disabled = true;
   submitButton.textContent = tr('Đang gửi yêu cầu tư vấn đến email của Snow Homestay...');
