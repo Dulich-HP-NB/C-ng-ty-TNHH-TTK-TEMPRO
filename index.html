@@ -119,7 +119,10 @@ document.getElementById('bookingForm').addEventListener('submit', async function
       body: JSON.stringify(Object.fromEntries(data.entries()))
     });
     const result = await response.json();
-    if (!response.ok || result.success !== true) throw new Error(result.message || 'Submission failed');
+    // FormSubmit's AJAX endpoint has returned `success` as either a boolean
+    // or the string "true". Accept both so a successful request isn't shown
+    // to the customer as a failure.
+    if (!response.ok || (result.success !== true && result.success !== 'true')) throw new Error(result.message || 'Submission failed');
     submitButton.textContent = tr('Yêu cầu đã gửi. Chúng tôi sẽ liên hệ xác nhận.');
   } catch (error) {
     submitButton.textContent = tr('Chưa gửi được yêu cầu. Vui lòng thử lại hoặc liên hệ trực tiếp qua hotline/Zalo.');
