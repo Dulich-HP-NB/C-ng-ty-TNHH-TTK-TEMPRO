@@ -1,7 +1,7 @@
 (() => {
   const dict = {    'Khám phá các gói tour một ngày từ Ninh Bình đến Hải Phòng.':['Explore one-day tours from Ninh Binh to Hai Phong.','探索从宁平前往海防的一日游。'],
     'Tour ghép tính theo từng khách; tour riêng tính theo quy mô nhóm. Gửi yêu cầu để xác nhận lịch khởi hành, điểm đón và tổng chi phí.':['Shared tours are priced per guest; private tours are priced by group size. Send an enquiry to confirm departure, pickup and total cost.','拼团按人计价，私人团按团队人数计价。请提交咨询以确认出发日期、接送地点和总费用。'],
-    'Tour ghép 699.000đ/khách · tour riêng từ 799.000đ/khách':['Shared tour VND 699,000/person · private tours from VND 799,000/person','拼团每人 699,000 越南盾 · 私人团每人 799,000 越南盾起'],
+    'Tour ghép 699.000đ/người · private 4 khách 999.000đ/người · private 6 khách 799.000đ/người':['Shared tour VND 699,000/person · private group of 4 VND 999,000/person · private group of 6 VND 799,000/person','拼团每人 699,000 越南盾 · 4 人私人团每人 999,000 越南盾 · 6 人私人团每人 799,000 越南盾'],
     'Nhà hát và quảng trường được tính là một điểm dừng; hai điểm còn lại là Nhà Kèn và cầu Hoàng Văn Thụ.':['The theatre and its square count as one stop; the other two are Nha Ken and Hoang Van Thu Bridge.','剧院及其广场合为一站；另外两站是 Nhà Kèn 和黄文树桥。'],
     '3 điểm check-in gợi ý':['3 suggested photo stops','3 个推荐打卡点'],
     'Nhà hát và quảng trường':['Theatre and square','剧院与广场'],
