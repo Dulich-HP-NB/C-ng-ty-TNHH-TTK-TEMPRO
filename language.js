@@ -79,6 +79,11 @@
     'quang-truong-nha-hat.html':['Nhà Kèn trong vườn hoa Nguyễn Du','Điểm check-in']
   };
   Object.assign(dict, {
+    'Xem thêm hình ảnh và cập nhật tại Fanpage Foodtour Hải Phòng Trọn Gói.':['See more photos and updates on the Foodtour Hai Phong Trọn Goi Facebook page.','欢迎关注 Foodtour Hải Phòng Trọn Gói Facebook 专页，查看更多图片和动态。'],
+    'Mở Fanpage Foodtour Hải Phòng Trọn Gói':['Open the Foodtour Hai Phong Trọn Goi Facebook page','打开 Foodtour Hải Phòng Trọn Gói Facebook 专页'],
+    'Fanpage Foodtour Hải Phòng Trọn Gói ↗':['Foodtour Hai Phong Trọn Goi Facebook page ↗','Foodtour Hải Phòng Trọn Gói Facebook 专页 ↗']
+  });
+  Object.assign(dict, {
     'Giá tour đã bao gồm chi phí di chuyển, chi phí ăn trải nghiệm theo chương trình và vé tham quan các điểm trong lịch trình. Các khoản ngoài phạm vi này (nếu có) sẽ được thông báo trước khi xác nhận đặt tour.':['The tour price includes transportation, food experiences in the programme and admission to the scheduled attractions. Any additional costs will be disclosed before the booking is confirmed.','团费已包含交通、行程中的餐饮体验及所安排景点的门票。其他费用（如有）将在确认预订前告知。'],
     'Đặt cọc 30% tổng giá trị tour để giữ chỗ; thanh toán 70% còn lại trước khi hành trình bắt đầu để hoàn tất 100% chi phí. Điều kiện đổi ngày, hủy tour và hoàn tiền sẽ được thông báo bằng văn bản trước khi khách thanh toán.':['Pay a 30% deposit of the total tour price to reserve your place, then pay the remaining 70% before the trip begins. Date changes, cancellations and refunds will be explained in writing before payment.','支付团费总额的 30% 作为定金以保留名额，并在行程开始前支付剩余 70%。改期、取消和退款条件将在付款前以书面形式说明。'],
     'Mức đặt cọc và thời điểm thanh toán?':['How much is the deposit and when is payment due?','定金金额及付款时间？']
